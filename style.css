@@ -21,7 +21,8 @@
 
 body {
   font-family: "helveticaneuemedium";
-background-color: #FEE829;
+background-image: url(fongo.jpg);
+background-image: repeat;
 padding-top: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -208,7 +209,7 @@ img {
         padding: 5px 15px;
         color: white;
         font-size: 13px; }
-        .header-area .top-header .top-social-area a:hover, 
+        .header-area .top-header .top-social-area a:hover,
         .header-area .top-header .top-social-area a:focus {
           color: white; }
         @media only screen and (min-width: 768px) and
@@ -224,6 +225,10 @@ img {
             padding: 5px 4px; } }
 
 
+
+.navbarToggler {
+  	background-color: #417536;
+}
   .header-area .logo-area {
 		background-color: #417536;
 		opacity: 0.95;
@@ -274,6 +279,7 @@ img {
     .header-area .original-nav-area .classy-navbar {
       height: 100px;
       padding: 15px;
+
      }
       @media only screen and (max-width: 767px) {
         .header-area .original-nav-area .classy-navbar {
